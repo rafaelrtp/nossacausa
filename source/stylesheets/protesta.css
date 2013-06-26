@@ -1,0 +1,139 @@
+body, html {margin:0;padding:0;}
+
+a {color: #007aad;}
+
+.header {
+	background-color: #000;
+	height: 420px;
+	text-align: center;
+	padding-top: 1px;
+	color: #fff;
+	width:100%;
+	min-width: 900px;
+}
+
+	.header-title {
+		padding-top: 140px;	
+	}
+
+	.header-title h1 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 900;
+		font-size: 80px;
+		letter-spacing: -1px;
+	}
+
+	.header-info {
+		padding-top: 25px;
+		font-size: 16px;
+		line-height: 90%;
+		font-family: "Enriqueta";
+	}
+
+.row {
+	margin: auto;
+	width: 900px;
+	padding-top: 50px;
+}
+
+.row.last {
+	padding-bottom: 20px;
+	padding-top: 50px;
+}
+
+.row-green {
+	background-color: #b3d559;
+	width:100%;
+	min-width: 900px;
+}
+
+.row-gray {
+	background-color: #e4e4e4;
+	width:100%;
+	min-width: 900px;
+}
+
+.row-dark-gray {
+	background-color: #333;
+	width:100%;
+	min-width: 900px;
+}
+
+.row .row-header {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}	
+
+.row .row-header h2 {
+	margin-bottom: 0;
+	font-weight: 900;
+}
+
+.row .row-paragraph {
+	margin: auto;
+	width: 720px;
+	font-family: "Enriqueta";
+}
+
+.row .row-paragraph .paragraph-title, .row .row-paragraph h3 {
+	font-size: 1.3em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.row .row-paragraph .paragraph-centered {
+	margin: auto;
+	width: 290px;
+}
+
+.row .row-paragraph .paragraph-centered .paragraph-box-group {
+	margin-top: 45px;
+	margin-bottom: 115px;
+}
+
+.row .row-paragraph .paragraph-centered .paragraph-box-group .paragraph-box a {
+	border: 1px #000 solid;
+	margin-bottom: 18px;
+	text-align: center;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	padding: 20px 10px;
+	width: 300px;
+	display: block;
+	color: #000;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+}
+
+
+.row .row-paragraph .paragraph-centered .paragraph-box-group .paragraph-box a:hover {
+	background-color: #e4e4e4;
+}
+
+.row .row-paragraph .paragraph-centered .paragraph-box-group .paragraph-box a.dark-box {
+	border: 1px #fff solid;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	vertical-align: middle;
+}
+
+.row .row-paragraph .paragraph-centered .paragraph-box-group .paragraph-box a:hover.dark-box {
+	color: #000;
+} 
+
+.row .row-paragraph .paragraph-contact-group {
+	margin-top: 45px;
+}
+
+.row .row-paragraph .paragraph-contact-group .paragraph-contact {
+	line-height: 50%;
+	padding-bottom: 15px;
+}
+
+.row .row-paragraph .paragraph-contact-group .paragraph-contact.last {
+	padding-bottom: 110px;
+}
